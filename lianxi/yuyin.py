@@ -12,3 +12,4 @@ import time
 #engine.endLoop()
 print(1*2**7+0*2**6+0*2**5+1*2**4+0*2**3+1*2**2+1*2**1+0*2**0)
 djksfdjl
+sdfds
