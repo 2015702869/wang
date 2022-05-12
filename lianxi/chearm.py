@@ -5,9 +5,9 @@ import threading
 dr = webdriver.Chrome()
 dr.get('https://ljlykz.gzkz.chaoxing.com')
 elem_user = dr.find_element(By.XPATH, '//*[@id="phoneName"]')#获取用户名输入框
-elem_user.send_keys('18846201895')#输入用户名
+elem_user.send_keys('账号')#输入用户名
 elem_pass = dr.find_element(By.XPATH, '//*[@id="phonepassword"]')#获取密码输入框
-elem_pass.send_keys('shenmo456')
+elem_pass.send_keys('密码')
 dr.find_element(By.XPATH, '//*[@type="submit"]').click()
 time.sleep(2)
 dr.get('https://ljlykz.gzkz.chaoxing.com/studyApp/studying?s=8bba95c05159f88aa656375676682848')#
